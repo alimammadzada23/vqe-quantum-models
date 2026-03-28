@@ -40,6 +40,9 @@ Better behaved than TFIM for VQE — and our results confirmed exactly that.
 Both models use 4 qubits. Small enough to verify against exact diagonalization.
 Large enough to show real quantum behavior.
 
+![VQE Convergence](quantum_models_results.png)
+
+
 ---
 
 ## Results
@@ -58,7 +61,7 @@ Large enough to show real quantum behavior.
 **82% reduction in hardware error** going from the naive baseline (24.7%)
 to the best mitigation strategy (4.3%).
 
-![Final Results](results/hardware_comparison_final.png)
+![Final Results](hardware_comparison_final.png)
 
 ---
 
@@ -87,6 +90,9 @@ Even on the simulator, TFIM achieved only 3.5% error vs 0.1% for Heisenberg
 with the same shallow ansatz. At J = h = 1, TFIM is maximally entangled —
 a hardware-efficient ansatz cannot fully represent this state. This is a
 known limitation of shallow variational circuits at quantum critical points.
+
+![Hardware vs Simulation](hardware_vs_simulation.png)
+
 
 ---
 
