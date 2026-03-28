@@ -1,6 +1,3 @@
-# vqe-quantum-models
-VQE ground state estimation for TFIM and Heisenberg models on real IBM quantum hardware
-
 # VQE Quantum Models on Real IBM Hardware
 
 Ground state energy estimation for two fundamental quantum models,
